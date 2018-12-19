@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request
+from flask import Flask
 
-app = Flask(__name__)
+app = Flask("bhapi")
 
 @app.route('/')
 def hello_world():
